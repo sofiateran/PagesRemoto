@@ -1,0 +1,25 @@
+.titulo{
+    text-align: center;
+    letter-spacing: 5px;
+    color: #005677;
+    background-color: rgb(226, 221, 221);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+h2{
+    background-color: rgb(226, 221, 221);
+    font-size: 25px;
+    letter-spacing: 5px;
+    color: #005677;
+}
+
+footer{
+    background-color:#005677;
+    color: white;
+    text-align: center;
+}
