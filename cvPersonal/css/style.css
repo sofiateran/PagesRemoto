@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Lobster&family=Orelega+One&family=Oswald:wght@300&display=swap');
+
+.titulo {
+    text-align: center;
+    letter-spacing: 5px;
+    color: #005677;
+    background-color: rgb(226, 221, 221);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+header {
+    background-image: url("../Dia-Libro-descuentos-puedes-perder_1675942965_156535477_667x375.jpeg");
+    background-size: contain;
+
+}
+
+.negrita {
+    font-weight: bold;
+}
+div{
+    background-image: url("../Captura\ de\ Pantalla\ 2022-06-01\ a\ la\(s\)\ 14.58.22.png");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h2 {
+    background-color: rgb(226, 221, 221);
+    font-size: 25px;
+    letter-spacing: 5px;
+    color: #005677;
+}
+
+footer {
+    background-color: #005677;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
