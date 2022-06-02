@@ -14,7 +14,7 @@ body{
 }
 
 header {
-    background-image: url("../Dia-Libro-descuentos-puedes-perder_1675942965_156535477_667x375.jpeg");
+    background-image: url("../img/libroCorazon.png");
     background-size: contain;
 
 }
@@ -23,7 +23,7 @@ header {
     font-weight: bold;
 }
 div{
-    background-image: url("../Captura\ de\ Pantalla\ 2022-06-01\ a\ la\(s\)\ 14.58.22.png");
+    background-image: url('../img/fotomia.png');
     background-size: 200px;
     background-repeat: no-repeat;
     background-position: center;
