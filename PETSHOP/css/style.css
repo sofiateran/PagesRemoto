@@ -1,0 +1,46 @@
+header{
+    background-image: url('../img/fondoNegro.jpeg');
+    margin: 0px;
+    color: white;
+}
+.der{
+    text-align: right;
+}
+
+nav{
+    background-image: url('../img/fondoNaranja.jpeg');
+    
+}
+
+section{
+    background-image: url('../img/comidaTurquesa.jpeg');
+}
+
+.textoarriba1{
+    font-size: 35px;
+    background-color: white;
+    
+}
+
+.comederos{
+    background-color: orange;
+    color: white;
+    font-size: 30px;
+}
+.medio{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: rgb(111, 39, 6);
+    padding: 5px;
+}
+i{
+    font-size: 20px;
+}
+
+article{
+    text-align: center;
+    font-size: 25px;
+}
