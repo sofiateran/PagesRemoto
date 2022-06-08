@@ -1,0 +1,259 @@
+*{
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Lobster&family=Orelega+One&family=Oswald:wght@300&family=Roboto:ital,wght@1,300&display=swap');
+*{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+.Descuento{
+    position: absolute;
+    background-color: aquamarine;
+    padding: 10px;
+    top:0;
+    width: 100%;
+    height: 30px;
+    left: 0;
+}
+
+.Heroes{
+    position: absolute;
+    background-color: #00669F;
+    padding: 40px;
+    font-size: 40px;
+    width: 100%;
+    left: 0;
+    top: 30px;
+}
+
+.contenedor1{
+    display: inline-block;
+    top: 200px;
+    left: 300px;
+    margin: 30px;
+    background-color: 
+    #F3F3F3;
+    border-radius: 15%;
+    height: 600px;
+    width: 300px;
+    position: relative;
+}
+
+.imagenFondo{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background-image: url("../img/fondo.png");
+    border-radius: 15%; 
+    background-repeat: no-repeat;
+    z-index: 5;
+}
+
+.corazon{
+    background-image: url("../img/corazon.png");
+    position:absolute;
+    width: 30px;
+    height: 30px;
+    top: 20px;
+    left: 20px;
+    z-index: 555;
+}
+
+.batmanCirculo{
+    position: absolute;
+    width: 120px;
+    height: 118px;
+    left: 93px;
+    top: 128px;
+    border-radius: 75%;
+    background-image: url("../img/batman.png");
+    background-repeat: no-repeat;
+    z-index: 55;
+}
+
+.titulo{
+    position: absolute;
+    font-size: 40px;
+    left: 70px;
+    top: 280px;
+}
+
+.texto{
+    position: absolute;
+    left: 0px;
+    top: 350px;
+    text-align: center;
+}
+
+.boton{
+    color: white;
+    font-size: 20px;
+    padding: 20px 40px;
+    background-color: 
+    #00669F;
+    position: absolute;
+    left: 73px;
+    top: 480px;
+}
+
+
+
+.contenedor2{
+    display: inline-block;
+    top: 200px;
+    left: 450px;
+    margin: 30px;
+    background-color: 
+    #F3F3F3;
+    border-radius: 15%;
+    height: 600px;
+    width: 300px;
+    position: relative;
+}
+
+
+.imagenFondo2{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background-image: url("../img/fondoVioleta.png");
+    border-radius: 15%; 
+    background-repeat: no-repeat;
+    z-index: 5;
+}
+
+.corazon2{
+    background-image: url("../img/corazon.png");
+    position:absolute;
+    width: 30px;
+    height: 30px;
+    top: 20px;
+    left: 20px;
+    z-index: 555;
+}
+
+.QuiinCirculo{
+    position: absolute;
+    width: 120px;
+    height: 118px;
+    left: 93px;
+    top: 128px;
+    border-radius: 75%;
+    background-image: url("../img/queen.png");
+    background-repeat: no-repeat;
+    z-index: 55;
+}
+
+.titulo2{
+    position: absolute;
+    font-size: 40px;
+    left: 70px;
+    top: 280px;
+}
+
+.texto2{
+    position: absolute;
+    left: 0px;
+    top: 350px;
+    text-align: center;
+}
+
+.boton2{
+    color: white;
+    font-size: 20px;
+    padding: 20px 40px;
+    background-color: 
+    #00669F;
+    position: absolute;
+    left: 73px;
+    top: 480px;
+}
+
+
+
+
+.contenedor3{
+    display: inline-block;
+    top: 200px;
+    left: 600px;
+    margin: 30px;
+    background-color: 
+    #F3F3F3;
+    border-radius: 15%;
+    height: 600px;
+    width: 300px;
+    position: relative;
+}
+
+
+.imagenFondo3{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background-image: url("../img/fondo.png");
+    border-radius: 15%; 
+    background-repeat: no-repeat;
+    z-index: 5;
+}
+.corazon3{
+    background-image: url("../img/corazon.png");
+    position:absolute;
+    width: 30px;
+    height: 30px;
+    top: 20px;
+    left: 20px;
+    z-index: 555;
+}
+
+.batmanCirculo3{
+    position: absolute;
+    width: 120px;
+    height: 118px;
+    left: 93px;
+    top: 128px;
+    border-radius: 75%;
+    background-image: url("../img/batman.png");
+    background-repeat: no-repeat;
+    z-index: 55;
+}
+
+.titulo3{
+    position: absolute;
+    font-size: 40px;
+    left: 70px;
+    top: 280px;
+}
+
+.texto3{
+    position: absolute;
+    left: 0px;
+    top: 350px;
+    text-align: center;
+}
+
+.boton3{
+    color: white;
+    font-size: 20px;
+    padding: 20px 40px;
+    background-color: 
+    #00669F;
+    position: absolute;
+    left: 73px;
+    top: 480px;
+}
+
+p{
+    color: white;
+    background-color: #00669F;
+    padding: 10px;
+    position: absolute;
+    font-size: 20px;
+    width: 100%;
+    top: 940px;
+}
