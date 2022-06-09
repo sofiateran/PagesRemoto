@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Lobster&family=Orelega+One&family=Oswald:wght@300&family=Roboto:ital,wght@0,300;1,300&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(231, 241, 249);
+    z-index: 0;
+}
+
+
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 15px;
+}
+
+a {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+    
+}
+
+.contenedorNaranja {
+    display: flex;
+    position: absolute;
+    background-image: url("../img/delivery.jpg");
+    background-repeat: no-repeat;
+    top: 190px;
+    left: 19px;
+    width: 600px;
+    height: 500px;
+}
+.Pnaranja{
+    font-size: 25px;
+    color: red;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 25px;
+    
+    
+}
+.Snaranja{
+    color: white;
+}
+
+
+.contenedorBlanco {
+    position: absolute;
+    background-image: url("../img/Rectangle\ 2.png");
+    width: 500px;
+    height: 380px;
+    top: 190px;
+    left: 600px;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    
+}
+
+.podio{
+    color: red;
+   
+}
+
+.top{
+    font-size: 18px;
+    position:absolute;
+    left: 70px;
+    top: 100px;
+}
+
+.ranking{
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+
+.pizza{
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    top: 120px;
+    right: 70px;
+}
+
+.contenedorFooter{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+   
