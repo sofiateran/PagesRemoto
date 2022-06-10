@@ -7,7 +7,7 @@
 
 body {
     background-color: rgb(231, 241, 249);
-    z-index: 0;
+    z-index: 5;
 }
 
 
@@ -27,7 +27,7 @@ header {
     margin: 15px;
 }
 
-a {
+.Aheader {
     display: inline-flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -39,75 +39,96 @@ a {
     
 }
 
-.contenedorNaranja {
+main{
     display: flex;
-    position: absolute;
-    background-image: url("../img/delivery.jpg");
-    background-repeat: no-repeat;
-    top: 190px;
-    left: 19px;
-    width: 600px;
-    height: 500px;
+    justify-content: center;
+    padding: 80px;
 }
-.Pnaranja{
-    font-size: 25px;
+
+.contenedorNaranja{
+    position: relative;
+    border-radius: 5px;
+    width: 50%;
+    margin-right: 1px;
+
+}
+.delivery img{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+
+}
+.Pnaranja {
+    position: absolute;
     color: red;
-    position: absolute;
-    margin-top: 20px;
-    margin-left: 25px;
-    
-    
+    font-weight: 700;
+    top:0;
+    left: 20px;
 }
-.Snaranja{
+span{
     color: white;
 }
 
-
-.contenedorBlanco {
-    position: absolute;
-    background-image: url("../img/Rectangle\ 2.png");
-    width: 500px;
-    height: 380px;
-    top: 190px;
-    left: 600px;
-    z-index: 5;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: row;
-    
+.contenedorBlanco{
+    position: relative;
+    border-radius: 5px;
+    width: 520px;
+    background-color: white;
+    height: 350px;
 }
 
 .podio{
-    color: red;
-   
+   display: flex;
+   justify-content: center;
+   color: red;
+   font-weight: 700;
 }
 
 .top{
-    font-size: 18px;
-    position:absolute;
-    left: 70px;
-    top: 100px;
+    display: flex;
+    position: absolute;
+    left: 55px;
+    top: 45px;
 }
 
 .ranking{
-    position: absolute;
-    top: 150px;
-    left: 50px;
+    display: block;
+    position:absolute;
+    top: 100px;
+    left: 40px;
 }
 
 .pizza{
+    display: flex;
     position: absolute;
-    width: 100px;
-    height: 150px;
-    top: 120px;
-    right: 70px;
+    right: 80px;
+    bottom: 100px;
+
 }
+
 
 .contenedorFooter{
     background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.Afooter{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    
+}
+
+.logoF{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-end;
+
 }
    
