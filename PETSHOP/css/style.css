@@ -1,46 +1,172 @@
-header{
-    background-image: url('../img/fondoNegro.jpeg');
-    margin: 0px;
-    color: white;
+body{
+    box-sizing: border-box;
+    margin: 0;
 }
-.der{
-    text-align: right;
+
+header{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header{
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.idioma{
+    color: white;
+    align-self: flex-end;
+    margin: 0;
+    margin-right: 15px;
 }
 
 nav{
-    background-image: url('../img/fondoNaranja.jpeg');
-    
+    display: flex;
+    background-color: rgb(242, 170, 37);
+    justify-content: space-between;
+}
+
+.der{
+    margin-right: 20px;
+    padding: 3px;
 }
 
 section{
-    background-image: url('../img/comidaTurquesa.jpeg');
+    display: flex;
 }
 
+.turquesa{
+    width: 100%;
+    position: relative;
+}
+.medio{
+    position: absolute;
+}
 .textoarriba1{
-    font-size: 35px;
     background-color: white;
-    
+    font-size: 30px;
+    right: 250px;
+    bottom: 500px;
+    padding: 10px;
+}
+
+.textoarriba2{
+    font-size: 20px;
+    right:300px;
+    bottom: 470px;
 }
 
 .comederos{
-    background-color: orange;
+    background-color: rgb(242, 170, 37);
+    padding: 18px;
     color: white;
-    font-size: 30px;
-}
-.medio{
-    text-align: center;
-}
-footer{
-    text-align: center;
-    color: white;
-    background-color: rgb(111, 39, 6);
-    padding: 5px;
-}
-i{
-    font-size: 20px;
+    right: 350px;
+    bottom: 400px;
+    border: none;
 }
 
-article{
-    text-align: center;
-    font-size: 25px;
+.encabezado{
+    display: flex;
+    justify-content: center;
+    position:relative;
+    z-index: 333;
+
 }
+
+.imagen{
+    position: absolute;
+    left: 50%;
+
+}
+.titulo{
+    position: absolute;
+    left: 800px;
+    top: 20px;
+    
+    font-size: 50px;
+    padding: 0;
+}
+.opciones{
+    position:absolute;
+    top: 115px;
+    left: 860px;
+}
+
+.tipos{
+    display: flex;
+    justify-content: center;
+    right: 0;
+}
+
+
+
+.tipo1{
+    background-image: url("../img/bifes.jpeg");
+    width: 250px;
+    height: 300px;
+    z-index: 33;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.info{
+    position:absolute;
+    left: 50px;
+    
+}
+
+.precio{
+    position:absolute;
+    left: 100px;
+    bottom: 45px;
+    color: orange;
+}
+
+.tipo2{
+    background-image: url("../img/bowlComida.jpeg");
+    width: 250px;
+    height: 300px;
+    z-index: 33;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.info{
+    position:absolute;
+    left: 50px;
+    
+}
+
+.precio{
+    position:absolute;
+    left: 100px;
+    bottom: 45px;
+    color: orange;
+}
+
+.tipo3{
+    background-image: url("../img/miniHuesitos.jpeg");
+    width: 250px;
+    height: 300px;
+    z-index: 33;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.info{
+    position:absolute;
+    left: 50px;
+    
+}
+
+.precio{
+    position:absolute;
+    left: 100px;
+    bottom: 45px;
+    color: orange;
+}
+
+
