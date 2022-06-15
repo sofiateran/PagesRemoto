@@ -1,16 +1,20 @@
 *{
     box-sizing: border-box;
+    margin: 0;
 }
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Lobster&family=Orelega+One&family=Oswald:wght@300&family=Roboto:ital,wght@1,300&display=swap');
 *{
     font-family: Roboto;
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 18px;
     letter-spacing: 0em;
     text-align: left;
 }
-
+main{
+    display: flex;
+    justify-content:flex-start;
+}
 
 .Descuento{
     position: absolute;
@@ -26,14 +30,14 @@
     position: absolute;
     background-color: #00669F;
     padding: 40px;
-    font-size: 40px;
+    font-size: 2.5rem;
     width: 100%;
     left: 0;
     top: 30px;
 }
 
 .contenedor1{
-    display: inline-block;
+    display: flex;
     top: 200px;
     left: 300px;
     margin: 30px;
@@ -79,7 +83,7 @@
 
 .titulo{
     position: absolute;
-    font-size: 40px;
+    font-size: 2.5rem;
     left: 70px;
     top: 280px;
 }
@@ -93,7 +97,7 @@
 
 .boton{
     color: white;
-    font-size: 20px;
+    font-size: 2rem;
     padding: 20px 40px;
     background-color: 
     #00669F;
@@ -105,7 +109,7 @@
 
 
 .contenedor2{
-    display: inline-block;
+    display: flex;
     top: 200px;
     left: 450px;
     margin: 30px;
@@ -152,7 +156,7 @@
 
 .titulo2{
     position: absolute;
-    font-size: 40px;
+    font-size: 2.5rem;
     left: 70px;
     top: 280px;
 }
@@ -166,7 +170,7 @@
 
 .boton2{
     color: white;
-    font-size: 20px;
+    font-size: 2rem;
     padding: 20px 40px;
     background-color: 
     #00669F;
@@ -176,10 +180,8 @@
 }
 
 
-
-
 .contenedor3{
-    display: inline-block;
+    display: flex;
     top: 200px;
     left: 600px;
     margin: 30px;
@@ -225,7 +227,7 @@
 
 .titulo3{
     position: absolute;
-    font-size: 40px;
+    font-size: 2.5rem;
     left: 70px;
     top: 280px;
 }
@@ -239,7 +241,7 @@
 
 .boton3{
     color: white;
-    font-size: 20px;
+    font-size: 2rem;
     padding: 20px 40px;
     background-color: 
     #00669F;
@@ -253,7 +255,13 @@ p{
     background-color: #00669F;
     padding: 10px;
     position: absolute;
-    font-size: 20px;
+    font-size: 2rem;
     width: 100%;
     top: 940px;
+}
+
+@media (max-width: 480px){
+    main{
+        flex-direction: column;
+    }
 }
