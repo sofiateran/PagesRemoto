@@ -42,33 +42,42 @@ section{
 }
 
 .turquesa{
-    width: 100%;
-    position: relative;
+    background-image: url("../img/comidaTurquesa.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
 }
-.medio{
-    position: absolute;
+
+.turquesa .contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 200px;
 }
+
 .textoarriba1{
     background-color: white;
     font-size: 30px;
-    right: 250px;
-    bottom: 500px;
     padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 .textoarriba2{
     font-size: 20px;
-    right:300px;
-    bottom: 470px;
+    margin-bottom: 10px;
 }
 
 .comederos{
     background-color: rgb(242, 170, 37);
-    padding: 18px;
+    padding: 10px;
     color: white;
-    right: 350px;
-    bottom: 400px;
     border: none;
+    border-radius: 5px;
 }
 
 .encabezado{
@@ -76,6 +85,13 @@ section{
     flex-direction: column;
     align-items: center;
     z-index: 333;
+}
+.encabezado h3{
+    margin: 0px;
+}
+.encabezado .opciones {
+    margin-top: 5px;
+    color: rgb(173, 168, 168);
 }
 
 .tipos{
@@ -91,12 +107,75 @@ section{
     width: 100%;
 }
 
-
+.tipos .tipo .contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0px;
+    padding: 0;
+    
+}
+.tipo .contenido .precio{
+    color: orange;
+    margin-top: 0px;
+    padding: 0px;
+}
 
 
 footer{
-    background-color: rgba(117, 5, 5, 0.81);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(61, 28, 28, 0.81);
     padding: 10px;
 }
 
+footer i{
+    font-size: 50px;
+    margin: 15px;
+    color: white;
+}
+footer .links{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+@media (max-width: 650px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(242, 170, 37);
+        align-items: center;
+    }
+    .ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav img{
+        width: 60%;
+    }
+    .turquesa .contenedor{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        padding: 0;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(61, 28, 28, 0.81);
+        padding: 10px;
+    }
+    footer img{
+        width: 60%;
+    }
+    
+
+}
 
