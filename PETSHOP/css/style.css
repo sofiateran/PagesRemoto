@@ -80,9 +80,16 @@ section{
 
 .tipos{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.tipos .tipo {
+    width: 265px;
 }
 
+.tipos .tipo img{
+    width: 100%;
+}
 
 
 
