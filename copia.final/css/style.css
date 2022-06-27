@@ -445,18 +445,20 @@ form p{
     }
     .contenedor .primerNivel{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
         margin-bottom: 0px;
         margin-top: 0px;
         width: 100%;
     }
+    
     .primerNivel .titulo{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
     }
     .primerNivel h1{
         font-size: 35px;
@@ -464,15 +466,16 @@ form p{
         margin-top: 40px;
         text-align: center;
     }
-    .primerNivel div{
+    .primerNivel .foto{
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-top: 30px;
+        width: 300px;
     }
-    .primerNivel  div img{
-        width: 100%;
-        margin-bottom:50px;
+    .primerNivel div img{
+        width: 80%;
+        margin-bottom:20px;
     }
     .primerNivel p{
         margin-top: 20px;
@@ -485,7 +488,7 @@ form p{
         flex-direction: column;
         justify-content:center;
         align-items: center;
-        margin: 0;
+        margin-top: 70px;
     }
     .izq{
         display: flex;
@@ -513,7 +516,6 @@ form p{
     .der .bloque1 {
         margin-top: 40px;
     }
-    
     article .cartas{
         display: flex;
         flex-direction: column;
@@ -544,7 +546,7 @@ form p{
     }
     footer{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: space-between;
         align-items: center;
         padding: 50px 100px 30px 100px;
@@ -573,14 +575,19 @@ form p{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        margin-bottom: 30px;
     }
     footer form input{
         margin-right: 10px;
+
     }
     footer p{
-        margin-top: 30px;
-        font-size: 10px;
-        margin-bottom: 10px;
-    }    
+        display: none;
+    }
+    footer::before{
+        content: "Copyrigth 2020. All Rights Reserved";
+        color: #B3B2B7;
+        font-size: 8px;
+    } 
 }
 
