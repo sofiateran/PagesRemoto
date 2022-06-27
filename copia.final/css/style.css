@@ -54,11 +54,12 @@ main .contenedor{
     flex-direction: column;
     justify-content: center;
     margin-left:100px ;
-    margin-right: 100px; ;
+    margin-right: 100px; 
 }
 
 .contenedor .primerNivel{
     display: flex;
+    justify-content: space-between;
     margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
@@ -77,6 +78,7 @@ main .contenedor{
     width: 350px;
     font-weight: bold;
 }
+
 
 .primerNivel button{
     background-color: #F3603B;
@@ -545,7 +547,7 @@ form p{
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        padding: 50px 100px 50px 100px;
+        padding: 50px 100px 30px 100px;
     }
     footer .logo{
         display: flex;
@@ -567,14 +569,18 @@ form p{
         margin-bottom: 20px;
         font-size: 15px;
     }
-    footer form{
+    footer form section{
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
     }
     footer form input{
-        margin-bottom: 10px;
+        margin-right: 10px;
     }
-    
+    footer p{
+        margin-top: 30px;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }    
 }
 
