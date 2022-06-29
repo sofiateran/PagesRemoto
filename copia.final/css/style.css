@@ -6,30 +6,34 @@
     padding: 0;
     font-family: 'Be Vietnam Pro', sans-serif;
 }
-
+body{
+    background-image: url("../img/fondo.svg");
+    background-repeat: no-repeat;
+    background-position-x: 700px;
+    background-position-y: -100px;
+}
+main{
+    background-image: url("../img/fondo.svg");
+    background-repeat: no-repeat;
+    background-position-x: -490px;
+    background-position-y: 950px;
+}
 header{
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 40px;
 }
-
 header nav a{
-    font-weight: 900;
     font-size: 13px;
     text-decoration: none;
     padding: 10px;
     color:#242E52;
-    
 }
 header nav a:hover{
-    font-weight: 900;
     font-size: 15px;
-    text-decoration: none;
-    padding: 10px;
     color:#696f86;
 }
-
 header button{
     background-color: #F3603B;
     color: white;
@@ -41,12 +45,6 @@ header button{
 }
 header button:hover{
     background-color: #f77f61;
-    color: white;
-    padding: 15px 30px 12px 30px;
-    border-radius: 20px;
-    border: none;
-    cursor: pointer;
-    box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
 }
 
 main .contenedor{
@@ -56,7 +54,6 @@ main .contenedor{
     margin-left:100px ;
     margin-right: 100px; 
 }
-
 .contenedor .primerNivel{
     display: flex;
     justify-content: space-between;
@@ -64,11 +61,9 @@ main .contenedor{
     margin-left: 50px;
     margin-right: 50px;
 }
-
 .primerNivel h1{
     color: #232C50;
     font-size: 55px;
-    font-weight: bold;
     width: 550px;
     margin-top: 70px;
 }
@@ -76,10 +71,7 @@ main .contenedor{
     margin-top: 20px;
     margin-bottom: 20px;
     width: 350px;
-    font-weight: bold;
 }
-
-
 .primerNivel button{
     background-color: #F3603B;
     color: white;
@@ -92,12 +84,6 @@ main .contenedor{
 }
 .primerNivel button:hover{
     background-color: #f77f61;
-    color: white;
-    padding: 15px 30px 12px 30px;
-    border-radius: 20px;
-    border: none;
-    cursor: pointer;
-    box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
 }
 
 .contenedor .segundoNivel{
@@ -106,13 +92,11 @@ main .contenedor{
     margin-left: 50px;
     margin-right: 50px;
 }
-
 .segundoNivel h3{
     color: #232851;
     font-size: 36px;
     margin-bottom: 30px;
 }
-
 .izq{
     margin-right: 100px;
     width:40%;
@@ -124,7 +108,6 @@ main .contenedor{
     margin-left: 100px;
     width: 40%;
 }
-
 .der button{
     background-color: #F3603B;
     color: white;
@@ -132,14 +115,11 @@ main .contenedor{
     border-radius: 20px;
     border: none;
     margin-top: 10px;
-    
 }
-
 .der p{
     color: #B3B2B7;
     margin-top: 10px;
 }
-
 .der .bloque1 {
     display: flex;
     justify-content: center;
@@ -179,13 +159,11 @@ article{
     flex-direction: column;
     align-items: center;
 }
-
 article h2{
     color: #242E53;
     font-size: 40px;
     margin-bottom: 100px;
 }
-
 article .cartas{
     display: flex;
     justify-content: space-between;
@@ -198,7 +176,6 @@ article .cartas{
 .cartas p{
     color: #B3B2B7;
 }
-
 .carta1{
     display: flex;
     flex-direction: column;
@@ -215,7 +192,6 @@ article .cartas{
     position: absolute;
     bottom: 160px; 
 }
-
 .carta1 h5{
     margin-top: 40px;
 }
@@ -275,14 +251,7 @@ article button{
 }
 article button:hover{
     background-color: #f77f61;
-    color: white;
-    padding: 15px 30px 12px 30px;
-    border-radius: 20px;
-    border: none;
-    cursor: pointer;
-    box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
 }
-
 
 .naranja{
     display: flex;
@@ -293,11 +262,12 @@ article button:hover{
     color: white;
     font-size: 25px;
     margin-top: 70px;
+    background-image: url("../img/fondoNaranja.svg");
+    background-repeat: no-repeat;
 }
 .naranja h2{
     width: 500px;
 }
-
 .naranja button{
     background-color: white;
     color: #F3603B;
@@ -309,12 +279,6 @@ article button:hover{
 }
 .naranja button:hover{
     background-color: rgb(224, 211, 211);
-    color: #F3603B;
-    padding: 15px 30px 12px 30px;
-    border-radius: 20px;
-    border: none;
-    cursor: pointer;
-    box-shadow: 0px 4px 8px rgba(75, 44, 37, 0.5);
 }
 
 footer{
@@ -323,57 +287,51 @@ footer{
     justify-content: space-between;
     padding: 70px 100px 70px 100px;
 }
-
 footer .logo{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
-
 .logo i{
     color: white;
     padding: 5px;
 }
 .logo i:hover{
     color: #F3603B;
-    padding: 5px;
     font-size: 25px;
 }
-
+footer .links{
+    display: flex;
+    justify-content: space-between;
+}
 footer .links1{
     display: flex;
     flex-direction: column;
+    margin-right: 60px;
 }
-
 .links1 a{
     color: white;
     text-decoration: none;
     padding: 7px;
 }
 .links1 a:hover{
-    color: rgb(236, 223, 223);
-    text-decoration: none;
-    padding: 7px;
-    font-size: 13px;
+    color: #F3603B;
 }
 
 footer .links2{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    margin-left: 100px;
 }
-
 .links2 a{
     color: white;
     text-decoration: none;
     padding: 7px;
 }
 .links2 a:hover{
-    color: rgb(236, 223, 223);
-    text-decoration: none;
-    padding: 7px;
-    font-size: 13px;
+    color: #F3603B;
 }
 footer form {
     display: flex;
@@ -393,7 +351,6 @@ footer form input:hover{
     border: none;
     padding: 10px;
 }
-
 form button{
     background-color: #F3603B;
     color: white;
@@ -404,13 +361,7 @@ form button{
 }
 form button:hover{
     background-color: #f77f61;
-    color: white;
-    padding: 10px 20px 10px 20px;
-    border-radius: 20px;
-    border: none;
-    cursor: pointer;
 }
-
 form p{
     color:#B3B2B7;
     font-size: 12px;
@@ -423,7 +374,6 @@ form p{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        align-items: center;
         margin-left: 0;
         width: 100%;
     }
@@ -438,8 +388,6 @@ form p{
         margin-top: 20px;
     }
     main .contenedor{
-        display: flex;
-        flex-direction: column;
         justify-content: space-around;
         align-items: center;
     }
@@ -452,19 +400,21 @@ form p{
         margin-top: 0px;
         width: 100%;
     }
-    
     .primerNivel .titulo{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
     }
     .primerNivel h1{
         font-size: 35px;
         width: 85%;
         margin-top: 40px;
         text-align: center;
+    }
+    .primerNivel div img{
+        width: 80%;
+        margin-bottom:20px;
     }
     .primerNivel .foto{
         display: flex;
@@ -473,14 +423,7 @@ form p{
         margin-top: 30px;
         width: 300px;
     }
-    .primerNivel div img{
-        width: 80%;
-        margin-bottom:20px;
-    }
     .primerNivel p{
-        margin-top: 20px;
-        margin-bottom: 20px;
-        width: 350px;
         text-align: center;
     }
     .contenedor .segundoNivel{
@@ -539,7 +482,7 @@ form p{
         align-items: center;
     }
     .naranja h2{
-        font-size: 25px;
+        font-size: 30px;
         text-align: center;
         width: 100%;
         margin-bottom: 20px;
@@ -549,37 +492,47 @@ form p{
         flex-direction: column-reverse;
         justify-content: space-between;
         align-items: center;
-        padding: 50px 100px 30px 100px;
+        padding: 20px 50px 20px 50px;
     }
     footer .logo{
         display: flex;
+        flex-direction: column-reverse;
         justify-content: space-between;
         align-items: center;
+        margin-bottom: 30px;
     }
     .logo i{
         margin-bottom: 20px;
+        font-size: 30px;
+        padding: 10px;
     }
-    footer .links1{
+    footer .links{
         display: flex;
-        flex-direction: row;
-        margin-bottom: 20px;
-        font-size: 15px;
+        justify-content: space-around;
+        margin-bottom: 20px; 
+        width: 100%;   
     }
-    footer .links2{
-        display: flex;
-        flex-direction: row;
-        margin-bottom: 20px;
-        font-size: 15px;
+    .links .linsk1{
+        margin-right: 0;
+    }
+    .links .links1 a{
+        width: 100px;
+    }
+    .links .links2{
+        margin-left: 0;
+    }
+    .links .links2 a{
+        width: 130px;
     }
     footer form section{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         margin-bottom: 30px;
+        
     }
     footer form input{
         margin-right: 10px;
-
     }
     footer p{
         display: none;
