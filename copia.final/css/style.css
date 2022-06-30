@@ -425,6 +425,7 @@ form p{
     }
     .primerNivel p{
         text-align: center;
+        padding: 10px;
     }
     .contenedor .segundoNivel{
         display: flex;
@@ -443,9 +444,12 @@ form p{
         margin-right: 0;
         width: 100%;
     }
+    .izq p{
+        padding: 10px;
+    }
     .segundoNivel h3{
         margin-bottom: 30px;
-        width: 80%;
+        width: 78%;
         font-size: 30px;
         text-align: center;
     }
@@ -458,20 +462,41 @@ form p{
     }
     .der .bloque1 {
         margin-top: 40px;
+        padding: 20px;
     }
+    .der .bloque2 {
+        padding: 20px;
+    }
+    .der .bloque3 {
+        padding: 20px;
+    }
+
+        
     article .cartas{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
+    article h2{
+        font-size: 30px;
+    }
     .carta1{
         margin-bottom: 50px;
+    }
+    .carta1 p{
+        padding: 0px 20px 0px 20px;
     }
     .carta2{
         margin-bottom: 50px;
     }
+    .carta2 p{
+        padding: 0px 20px 0px 20px;
+    }
     .carta3{
         margin-bottom: 50px;
+    }
+    .carta3 p{
+        padding: 0px 20px 0px 20px;
     }
     article button{
         margin-bottom: 0;
