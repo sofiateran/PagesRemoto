@@ -1,43 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Lobster&family=Orelega+One&family=Oswald:wght@300&display=swap');
-
-.titulo {
-    text-align: center;
-    letter-spacing: 5px;
-    color: #005677;
-    background-color: rgb(226, 221, 221);
-    font-size: 30px;
-    font-weight: bold;
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Lobster&family=Orelega+One&family=Oswald:wght@300&display=swap");
+body {
+  font-family: 'Oswald', sans-serif;
 }
 
-body{
-    font-family: 'Oswald', sans-serif;
+body header {
+  background-image: url("../img/libroCorazon.png");
+  background-size: contain;
 }
 
-header {
-    background-image: url("../img/libroCorazon.png");
-    background-size: contain;
-
+body header p {
+  text-align: center;
+  letter-spacing: 5px;
+  color: #005677;
+  background-color: #e2dddd;
+  font-size: 30px;
+  font-weight: bold;
 }
 
-.negrita {
-    font-weight: bold;
-}
-div{
-    background-image: url('../img/fotomia.png');
-    background-size: 200px;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-h2 {
-    background-color: rgb(226, 221, 221);
-    font-size: 25px;
-    letter-spacing: 5px;
-    color: #005677;
+body div {
+  background-image: url("../img/fotomia.png");
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-footer {
-    background-color: #005677;
-    color: white;
-    text-align: center;
-    font-size: 40px;
+body main .negrita {
+  font-weight: bold;
 }
+
+body main h2 {
+  background-color: #e2dddd;
+  font-size: 25px;
+  letter-spacing: 5px;
+  color: #005677;
+}
+
+body footer {
+  background-color: #005677;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+/*# sourceMappingURL=style.css.map */

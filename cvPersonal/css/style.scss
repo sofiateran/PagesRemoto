@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Lobster&family=Orelega+One&family=Oswald:wght@300&display=swap');
+body{   
+    font-family:'Oswald', sans-serif; 
+    header{
+        background-image: url("../img/libroCorazon.png");
+        background-size: contain;
+        p{
+            text-align: center;
+            letter-spacing: 5px;
+            color: #005677;
+            background-color: rgb(226, 221, 221);
+            font-size: 30px;
+            font-weight: bold; 
+        }
+    }
+    div{
+        background-image: url('../img/fotomia.png');
+        background-size: 200px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    main{
+        .negrita{
+            font-weight: bold;
+        }
+        h2{
+            background-color: rgb(226, 221, 221);
+            font-size: 25px;
+            letter-spacing: 5px;
+            color: #005677;
+        }
+    }
+    footer{
+        background-color: #005677;
+        color: white;
+        text-align: center;
+        font-size: 40px;
+    }
+}
